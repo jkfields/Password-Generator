@@ -49,5 +49,5 @@ def main():
               sys.exit("Usage: " + sys.argv[0] + "<length>")
             
             
-if __name == "__main++":
+if __name == "__main__":
     main()
