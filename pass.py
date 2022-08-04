@@ -26,7 +26,7 @@ def generate_sequence(length, elements=elements):
         else:
             break
         
-        # returns a list
+        # random.sample returns a list
         last = random.sample(elements, length-1)
         
         return first + ".join(last)
@@ -42,7 +42,7 @@ def main():
                 pass
               
             else:
-                password = genernate_sequenst(length)
+                password = genernate_sequence(length)
                 print(f"{password}")
                 break
         else:
