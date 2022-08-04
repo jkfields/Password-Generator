@@ -46,7 +46,7 @@ def main():
                 print(f"{password}")
                 break
         else:
-              sys.exit("Usage: " + sys.argv[0] + "<length>")
+              sys.exit("Usage: " + sys.argv[0] + " <length>")
             
             
 if __name == "__main__":
